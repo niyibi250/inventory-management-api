@@ -14,7 +14,7 @@ This project is a RESTful API for managing products in a database. It allows use
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/niyibi250/inventory-management-api.git
    cd <project-directory>
    ```
 
@@ -132,8 +132,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 ### Notes:
-- **Repository URL**: Replace `<repository-url>` with the URL of your project's repository (e.g., GitHub link).
-- **Project Directory**: Replace `<project-directory>` with the name of your project directory.
+- **Repository URL**: Replace `https://github.com/niyibi250/inventory-management-api.git` with the URL of your project's repository (e.g., GitHub link).
+- **Project Directory**: Replace `inventory-management` with the name of your project directory.
 - **MongoDB URI**: Make sure to update `<your-mongodb-uri>` with your actual MongoDB connection string.
 - **Product ID**: Replace `<product-id>` with the actual ID of the product when testing.
 
