@@ -7,6 +7,7 @@ const logEvent = async (action: string, productId: string) => {
   await EventLog.create({ action, productId });
 };
 
+
 export const addProduct = async (req: Request, res: Response) :Promise<Response>=> {
   try {
     const { name, quantity, category } = req.body;
